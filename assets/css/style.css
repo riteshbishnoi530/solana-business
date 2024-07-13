@@ -4,10 +4,6 @@
     background: #F6E300;
 }
 
-.bg-yellow {
-    background: #F6E300;
-}
-
 .w-30 {
     width: 35%;
 }
@@ -68,15 +64,13 @@
     padding-top: 114px;
     padding-bottom: 90px;
 }
-.sec-3-bg{
-    background: #FFF03F;
+.bg-yellow {
+    background: #F6E300 !important;
 }
-.sec-4-bg{
-    background: #F6E300;
+.bg-yellow-2{
+    background: #FFF03F !important;
 }
-.sec-5-bg{
-    background: #F4241E;
-}
+
 
 @media (max-width:992px) {
     .nav-link {
@@ -170,6 +164,9 @@
     .logo-img {
         max-width: 200px;
     }
+    .discord{
+        max-width: 50px;
+    }
 }
 
 @media (max-width:512px) {
@@ -232,5 +229,8 @@
     .py-50{
         padding-top: 50px;
         padding-bottom: 20px;
+    }
+    .discord{
+        max-width: 30px;
     }
 }

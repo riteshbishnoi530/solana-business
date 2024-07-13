@@ -11,7 +11,8 @@
     /*----------------------------font-weight------------------------*/
     --fw-lg:700;
     --fw-md:500;
-    --fw-sm:400; 
+    --fw-sm:400;
+    --fw-xl:600; 
 }
 /*----------------------------------------root----------------------*/
 
@@ -20,9 +21,17 @@
     font-size: var(--fs-sm);
     font-weight: var(--fw-sm);
 }
+.font-600-18{
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-xl);
+}
 .font-500-20{
     font-size: var(--fs-md);
     font-weight: var(--fw-md);
+}
+.font-700-24{
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-lg);
 }
 .font-700-36{
     font-size: var(--fs-xl);
