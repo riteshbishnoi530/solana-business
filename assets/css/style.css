@@ -4,19 +4,93 @@
     background: #F6E300;
 }
 
+.bg-yellow {
+    background: #F6E300;
+}
+
+.w-30 {
+    width: 35%;
+}
+
+.pb-130 {
+    padding-bottom: 170px;
+}
+
+.open {
+    left: 33%;
+    top: 72%;
+}
+
+.burger-1 {
+    top: 5px;
+    left: 4%;
+}
+
+.burger-2 {
+    top: 5px;
+    left: 25%;
+}
+
+.burger-3 {
+    top: 5px;
+    right: 25%;
+}
+
+.burger-4 {
+    top: 5px;
+    right: 4%;
+}
+
+.burger-5 {
+    bottom: 60px;
+    left: 4%;
+}
+
+.burger-6 {
+    bottom: 60px;
+    left: 25%;
+}
+
+.burger-7 {
+    bottom: 60px;
+    right: 4%;
+}
+
+.burger-8 {
+    bottom: 60px;
+    right: 20%;
+}
+
+.about-img {
+    max-width: 400px;
+}
+.py-114{
+    padding-top: 114px;
+    padding-bottom: 90px;
+}
+.sec-3-bg{
+    background: #FFF03F;
+}
+.sec-4-bg{
+    background: #F6E300;
+}
+.sec-5-bg{
+    background: #F4241E;
+}
+
 @media (max-width:992px) {
     .nav-link {
         display: flex;
         flex-direction: column;
         background-color: #F6E300 !important;
-        width: 30%;
-        min-height: 100vh;
+        width: 40%;
         position: fixed;
         justify-content: center;
         bottom: 0;
         left: -100% !important;
         top: 0%;
-        transition: all 300ms linear;
+        z-index: 2;
+        transition: all .5s linear !important;
     }
 
     .show-nvabar {
@@ -28,7 +102,7 @@
         margin-top: 15px;
         background: none;
         display: block;
-        z-index: 2;
+        z-index: 3;
     }
 
     .line {
@@ -45,5 +119,118 @@
 
     .pos {
         top: -7px;
+    }
+
+    .burger-1 {
+        top: 20px;
+    }
+
+    .burger-2 {
+        top: 20px;
+    }
+
+    .burger-3 {
+        top: 20px;
+    }
+
+    .burger-4 {
+        top: 20px;
+    }
+
+    .burger-5 {
+        bottom: 40px;
+    }
+
+    .burger-6 {
+        bottom: 40px;
+    }
+
+    .burger-7 {
+        bottom: 40px;
+    }
+
+    .burger-8 {
+        bottom: 30px;
+    }
+
+    .pt-100 {
+        padding-top: 100px;
+    }
+
+    .burger {
+        width: 80px;
+    }
+
+    .pb-130 {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width:767px) {
+    .logo-img {
+        max-width: 200px;
+    }
+}
+
+@media (max-width:512px) {
+    .burger-1 {
+        display: none;
+    }
+
+    .burger-2 {
+        display: none;
+    }
+
+    .burger-3 {
+        display: none;
+    }
+
+    .burger-4 {
+        display: none;
+    }
+
+    .burger-5 {
+        display: none;
+
+    }
+
+    .burger-6 {
+        display: none;
+    }
+
+    .burger-7 {
+        display: none;
+    }
+
+    .burger-8 {
+        display: none;
+
+    }
+
+    .pb-130 {
+        padding-bottom: 60px;
+    }
+
+    .pt-100 {
+        padding-top: 20px !important;
+    }
+
+    .logo-img {
+        max-width: 100px;
+    }
+
+    .menu-btn {
+        width: 25px;
+        margin-top: 4px;
+    }
+
+    .line {
+        height: 3px;
+        margin: 3px;
+
+    }
+    .py-50{
+        padding-top: 50px;
+        padding-bottom: 20px;
     }
 }
