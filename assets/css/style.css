@@ -70,6 +70,107 @@
 .bg-yellow-2{
     background: #FFF03F !important;
 }
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: red;
+    top: 1%;
+    bottom: 26%;
+    left: 50%;
+    margin-left: -3px;
+  }
+  .box::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -11px;
+    background-color: white;
+    top: 0;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    left: 50%;
+  }
+  
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+
+    border-width: 10px 10px 10px 0;
+  }
+  
+  .right::after {
+    left: -11px;
+  }
+  .box{
+    width: 50%;
+  }
+
+  .burger-11 {
+    top: 20%;
+    left: 1%;
+}
+
+.burger-12 {
+    top: 5px;
+    left: 25%;
+}
+
+.burger-13 {
+    top: 15%;
+    right: 25%;
+}
+
+.burger-14 {
+    top: 5px;
+    right: 4%;
+}
+
+.burger-15 {
+    bottom: 60px;
+    left: 0%;
+}
+
+.burger-16 {
+    bottom: 40%;
+    left: 30%;
+}
+
+.burger-17 {
+    bottom: 15%;
+    right: 4%;
+}
+
+.burger-18 {
+    bottom: 15%;
+    right: 25%;
+}
+  
+  
 
 
 @media (max-width:992px) {
@@ -160,14 +261,72 @@
     }
 }
 
-@media (max-width:767px) {
+@media screen and (max-width: 768px) {
     .logo-img {
         max-width: 200px;
     }
     .discord{
         max-width: 50px;
     }
-}
+    .burger-11 {
+        display: none;
+    }
+    
+    .burger-12 {
+       display: none;
+    }
+    
+    .burger-13 {
+      display: none;
+    }
+    
+    .burger-14 {
+        display: none;
+    }
+    
+    .burger-15 {
+        display: none;
+    }
+    
+    .burger-16 {
+        display: none;
+    }
+    
+    .burger-17 {
+        display: none;
+    }
+    
+    .burger-18 {
+       display: none;
+    }
+
+    .timeline::after {
+      left: 9px;
+    }
+  
+    .box {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+    .box::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+  
+    .left::after, .right::after {
+      left: -4px;
+    }
+
+    .right {
+      left: 0%;
+    }
+  }
+  
+ 
 
 @media (max-width:512px) {
     .burger-1 {
@@ -233,4 +392,5 @@
     .discord{
         max-width: 30px;
     }
+    
 }

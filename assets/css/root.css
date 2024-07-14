@@ -21,6 +21,10 @@
     font-size: var(--fs-sm);
     font-weight: var(--fw-sm);
 }
+.font-400-24{
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-sm);
+}
 .font-600-18{
     font-size: var(--fs-sm);
     font-weight: var(--fw-xl);
