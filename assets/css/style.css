@@ -21,9 +21,11 @@
     color: red !important; 
     -webkit-text-stroke: 1px;
 }
-.wallet:hover{
-    background-color: rgb(222, 230, 230);
+.wallet{
     transition: all .2s linear;
+}
+.wallet:hover{
+    background-color: rgb(222, 230, 230) !important;
 }
 .discover:hover{
     background-color: rgb(232, 81, 81) !important;
