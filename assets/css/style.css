@@ -11,6 +11,17 @@
 .pb-130 {
     padding-bottom: 170px;
 }
+.home:hover{
+    color: red !important; 
+    -webkit-text-stroke: 1px;
+}
+.wallet:hover{
+    background-color: rgb(222, 230, 230);
+    transition: all .2s linear;
+}
+.discover:hover{
+    background-color: rgb(232, 81, 81) !important;
+}
 
 .open {
     left: 33%;
